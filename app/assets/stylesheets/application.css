@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+ * {
+  box-sizing: border-box;
+ }
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 20px;
+  height: 250px;
+  margin-left: 25px;
+  background-color: lightgray;
+}
